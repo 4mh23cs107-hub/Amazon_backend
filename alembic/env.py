@@ -10,7 +10,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-from db inport Base
+from db import Base
 import models
 
 

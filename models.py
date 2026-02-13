@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String
+from sqlalchemy import Column, Integer, String , Boolean
 from db import Base
 class User(Base):
     __tablename__ = "users"
@@ -6,3 +6,5 @@ class User(Base):
     name = Column(String)
     email = Column(String)
     password = Column(String)
+    phone = Column(String)
+    isprime = Column(Boolean)
